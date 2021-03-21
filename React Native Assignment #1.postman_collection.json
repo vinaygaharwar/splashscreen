@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "f7eb6044-987b-4c4c-b935-ecf6c771eff5",
+		"name": "React Native Assignment #1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Play Arena List - Test API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://playonnuat-env.eba-ernpdw3w.ap-south-1.elasticbeanstalk.com/api/v1/establishment/test/list?offset=0&limit=10",
+					"protocol": "http",
+					"host": [
+						"playonnuat-env",
+						"eba-ernpdw3w",
+						"ap-south-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"establishment",
+						"test",
+						"list"
+					],
+					"query": [
+						{
+							"key": "offset",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
